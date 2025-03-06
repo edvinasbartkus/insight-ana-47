@@ -1,6 +1,12 @@
+
 import { LightbulbIcon, BarChart4Icon, Search, Database, Globe, FileText } from "lucide-react";
 
 const features = [
+  {
+    icon: <Globe className="h-6 w-6 text-purple-600" />,
+    title: "Daily Web Insights",
+    description: "Aggregated insights from across the web, newsletters, and podcasts delivered to your inbox every morning."
+  },
   {
     icon: <BarChart4Icon className="h-6 w-6 text-purple-600" />,
     title: "Weekly Analysis",
