@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -18,13 +17,9 @@ const CTA = () => {
               Join forward-thinking agencies already using Ana to win more clients and stay ahead of the competition.
             </p>
             
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex justify-center">
               <Button className="bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-bold rounded-full px-8 py-6 transition-all">
                 Start your free trial
-              </Button>
-              <Button variant="outline" className="rounded-full px-6 py-6 group">
-                Schedule a demo
-                <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
           </div>
