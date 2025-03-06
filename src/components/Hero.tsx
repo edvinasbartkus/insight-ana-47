@@ -43,9 +43,7 @@ const Hero = () => {
           <div className="mt-12 relative w-full max-w-4xl animate-fade-in" style={{
           animationDelay: "0.5s"
         }}>
-            <div className="aspect-video relative bg-gray-100 rounded-xl overflow-hidden shadow-xl border border-gray-200 glass-card">
-              
-            </div>
+            
           </div>
         </div>
       </div>
