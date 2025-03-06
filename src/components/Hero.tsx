@@ -37,19 +37,12 @@ const Hero = () => {
           
           <div className="mt-12 relative w-full max-w-4xl animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <div className="aspect-video relative bg-gray-100 rounded-xl overflow-hidden shadow-xl border border-gray-200 glass-card">
-              <div className="absolute inset-0 bg-gradient-to-br from-ana-purple/5 to-ana-yellow/5 p-8 flex flex-col justify-center">
+              <div className="absolute inset-0 bg-gradient-to-br from-ana-purple/5 to-ana-yellow/5 p-8">
                 <img 
                   src="/lovable-uploads/aa5e162d-7ae9-4ad7-8017-c2a9d350fcea.png" 
                   alt="Ana Assistant" 
                   className="absolute top-1/2 right-8 -translate-y-1/2 h-80 w-80 object-contain floating"
                 />
-                <div className="max-w-md">
-                  <h3 className="text-xl md:text-2xl font-display font-bold mb-4">Daily insights from across the web</h3>
-                  <p className="text-gray-600">Ana aggregates the latest trends, campaign insights, and industry news to keep you informed.</p>
-                  <div className="mt-6 bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-gray-100">
-                    <p className="text-sm font-medium">Latest trend: Video content focusing on sustainability has 47% higher engagement rate in Q2 2023</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
