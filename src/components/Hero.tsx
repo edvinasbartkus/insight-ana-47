@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-ana-lavender mb-6 animate-fade-in">
             <Zap size={14} className="text-purple-600 mr-2" />
-            <span className="text-xs font-medium text-purple-800">Your advantage in ad agency competition</span>
+            <span className="text-xs font-medium text-purple-800">Meet Ana - Your Agency's AI Agent</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-display font-bold leading-tight mb-6 animate-slide-up" style={{
