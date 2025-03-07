@@ -9,37 +9,12 @@ const Benefits = () => {
           <div className="order-2 lg:order-1">
             <div className="relative">
               <div className="bg-ana-purple/10 absolute -top-6 -left-6 w-full h-full rounded-xl"></div>
-              <div className="relative bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="mb-6 flex items-start gap-4 pb-6 border-b border-gray-100">
-                  <div className="min-w-10 h-10 bg-ana-lavender rounded-full flex items-center justify-center">
-                    <span className="font-display font-bold text-purple-600">1</span>
-                  </div>
-                  <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Have your own agency's AI agent</h3>
-                    <p className="text-gray-600">It will learn from your team's needs, answer question, provide data, search database and save insane amount of time. Ana will gradually become a superpowerful team member at a fraction of a cost. Ana works 24/7 and takes no days off</p>
-                  </div>
-                </div>
-
-                <div className="mb-6 flex items-start gap-4 pb-6 border-b border-gray-100">
-                  <div className="min-w-10 h-10 bg-ana-lavender rounded-full flex items-center justify-center">
-                    <span className="font-display font-bold text-purple-600">2</span>
-                  </div>
-                  <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Be first to know about the trends & news</h3>
-                    <p className="text-gray-600">Your team will be briefed daily about anything that's important (yes, Ana personalizes the briefing to your agency's needs).</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="min-w-10 h-10 bg-ana-lavender rounded-full flex items-center justify-center">
-                    <span className="font-display font-bold text-purple-600">3</span>
-                  </div>
-                  <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Deep dive into case studies in no time</h3>
-                    <p className="text-gray-600">Ana crunches thousands of case studies to assemble them according to category, market, or even more specific parameters).</p>
-                  </div>
-                </div>
-              </div>
+              <img 
+                src="/images/flowers.jpg" 
+                alt="Beautiful flowers" 
+                className="relative rounded-xl w-full h-auto shadow-lg"
+                style={{ maxHeight: '600px', objectFit: 'cover' }}
+              />
             </div>
           </div>
 
