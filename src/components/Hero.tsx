@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
 const Hero = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-display font-bold leading-tight mb-6 animate-slide-up" style={{
           animationDelay: "0.1s"
         }}>
-            Win more clients by <span className="text-gradient">knowing more</span>
+            Let's <em>supercharge</em> your agency to win & retain clients
           </h1>
           
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto animate-slide-up" style={{
