@@ -4,33 +4,33 @@ import { LightbulbIcon, BarChart4Icon, Search, Database, Globe, FileText } from 
 const features = [
   {
     icon: <Globe className="h-6 w-6 text-purple-600" />,
-    title: "Daily Web Insights",
-    description: "Aggregated insights from across the web, newsletters, and podcasts delivered to your inbox every morning."
+    title: "Save shitloads of your team’s time",
+    description: "Ana scans the entire industry—blogs, media sites, niche sources, case study archives, hundreds of newsletters, and hours of podcasts daily—to keep your team ahead. No need to spend hours browsing, or moan about having to read that long article on AdAge."
   },
   {
     icon: <BarChart4Icon className="h-6 w-6 text-purple-600" />,
-    title: "Weekly Analysis",
-    description: "In-depth analysis of industry trends and competitive landscapes delivered every week."
+    title: "Listen—Ana creates personal agency’s podcast",
+    description: "Prefer audio? Ana turns insights into a daily podcast so you can stay informed while you commute, or run, or work, or cook. Or do do all of those at once."
   },
   {
     icon: <LightbulbIcon className="h-6 w-6 text-purple-600" />,
-    title: "Interactive Exploration",
-    description: "Ask follow-up questions and explore topics deeper through natural conversation."
+    title: "LLM agency’s content",
+    description: "Private spaces let you feed Ana your own content, helping you refine ideas and craft better client campaigns."
   },
   {
     icon: <Database className="h-6 w-6 text-purple-600" />,
-    title: "Campaign Database",
-    description: "Unique database of advertising campaigns to search through for inspiration and competitive analysis."
+    title: "Get briefed daily on Slack (or where you prefer to)",
+    description: "Every morning, you get the 10 most relevant insights, delivered via Slack, Teams, email, or our mobile app. Supercompact and up-to-date."
   },
   {
     icon: <Search className="h-6 w-6 text-purple-600" />,
-    title: "Smart Search",
-    description: "Find exactly what you need with powerful semantic search across all insights and campaigns."
+    title: "Deep dive into case studies",
+    description: "Weekly deep dives provide a strategic edge, highlighting major trends and must-know case studies. Once again, on a platform your team prefers the most."
   },
   {
     icon: <FileText className="h-6 w-6 text-purple-600" />,
-    title: "Tender Preparation",
-    description: "Prepare winning proposals with contextual information about industry benchmarks and case studies."
+    title: "Ask anything—Ana knows a lot ",
+    description: "Stay up to date in a blink or dive deeper—ask follow-up questions or explore trends through an intuitive chat interface."
   }
 ];
 
@@ -42,11 +42,11 @@ const Features = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Agencies are a nightmare to run, let Ana help you with some of it</h2>
           <p className="text-lg text-gray-600">Ana combines current knowledge, insights, award-winning case-studies, timeless know-how, up-to-date data with loads of interactivity & personalization to help you be a better agency.</p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:translate-y-[-4px] duration-300"
             >
               <div className="bg-ana-lavender p-3 inline-block rounded-lg mb-4">
