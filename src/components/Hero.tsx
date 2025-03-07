@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
 const Hero = () => {
-  return <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+  return <section className="relative pt-32 md:pt-40 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-20 left-10 w-64 h-64 bg-ana-purple/20 rounded-full blur-3xl animate-pulse-slow"></div>
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-ana-yellow/10 rounded-full blur-3xl animate-pulse-slow" style={{
@@ -41,11 +41,16 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="mt-12 relative w-full max-w-4xl animate-fade-in" style={{
+          <div className="mt-6 relative w-full max-w-2xl animate-fade-in" style={{
           animationDelay: "0.5s"
         }}>
-
+            <img
+              src="/images/anatar.png"
+              alt="Ana AI Agent"
+              className="w-full h-auto"
+            />
           </div>
+
         </div>
       </div>
     </section>;

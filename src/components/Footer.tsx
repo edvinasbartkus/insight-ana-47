@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 py-12 md:py-16">
+    <footer className="bg-gray-50 py-12 md:py-16" style={{borderBottomLeftRadius: '30px', borderBottomRightRadius: '30px' }}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
@@ -13,7 +13,7 @@ const Footer = () => {
               />
               <span className="font-display font-bold text-xl text-ana-dark">ANA</span>
             </div>
-            <p className="text-gray-600 text-sm">Power up your agency’s knowledge, creativity, collaboration & performance.</p>
+            <p className="text-gray-600 text-sm">Power up your agency's knowledge, creativity, collaboration & performance.</p>
           </div>
 
           <div>
