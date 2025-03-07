@@ -6,16 +6,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img 
-                src="/lovable-uploads/aa5e162d-7ae9-4ad7-8017-c2a9d350fcea.png" 
-                alt="Ana Logo" 
+              <img
+                src="/lovable-uploads/aa5e162d-7ae9-4ad7-8017-c2a9d350fcea.png"
+                alt="Ana Logo"
                 className="h-10 w-10"
               />
-              <span className="font-display font-bold text-xl text-ana-dark">Ana</span>
+              <span className="font-display font-bold text-xl text-ana-dark">ANA</span>
             </div>
-            <p className="text-gray-600 text-sm">Your agency's knowledge advantage</p>
+            <p className="text-gray-600 text-sm">Power up your agency’s knowledge, creativity, collaboration & performance.</p>
           </div>
-          
+
           <div>
             <h3 className="font-display font-bold mb-4">Product</h3>
             <ul className="space-y-2">
@@ -24,7 +24,7 @@ const Footer = () => {
               <li><a href="#pricing" className="text-gray-600 hover:text-gray-900 text-sm">Pricing</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-display font-bold mb-4">Company</h3>
             <ul className="space-y-2">
@@ -33,7 +33,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-600 hover:text-gray-900 text-sm">Careers</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-display font-bold mb-4">Support</h3>
             <ul className="space-y-2">
@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Ana AI. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
