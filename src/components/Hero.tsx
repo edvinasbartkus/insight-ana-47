@@ -26,7 +26,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto animate-slide-up" style={{
           animationDelay: "0.2s"
         }}>
-            Ana delivers aggregated insights, analysis, and a rich database of ad campaigns to help your agency stay ahead of the competition.
+            Ana is your agency's AI agent on Slack (or anywhere you like), who will share all the latest advertising news, best work, insights, trend reports, or get you prepared in no time—anything to help your team succeed.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4 animate-slide-up" style={{
