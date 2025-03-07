@@ -23,6 +23,9 @@ const FreeTrial = () => {
     try {
       // @ts-ignore
       window.lintrk('track', { conversion_id: 19236044 });
+
+      // @ts-ignore
+      window.posthog.capture('trail submitted', formData);
     } catch (error) {
       console.error(error);
     }
