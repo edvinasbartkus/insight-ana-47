@@ -41,7 +41,7 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="mt-6 relative w-full max-w-2xl animate-fade-in" style={{
+          <div className="mt-6 relative w-full max-w-2xl" style={{
           animationDelay: "0.5s"
         }}>
             <img
