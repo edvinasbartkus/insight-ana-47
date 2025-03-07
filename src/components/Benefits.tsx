@@ -51,7 +51,7 @@ const Benefits = () => {
               Transform your agency's competitive advantage
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Ana helps advertising agencies of all sizes win more business through better knowledge and deeper insights.
+              Ana is built for advertising agencies by the people who worked there for ages & know the needs of agency inside-out. We've built it for us.
             </p>
             
             <ul className="space-y-3">
