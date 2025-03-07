@@ -56,10 +56,10 @@ const Benefits = () => {
             
             <ul className="space-y-3">
               {[
-                "Save 15+ hours per week on research and information gathering",
-                "Increase pitch win rates by up to 30% with data-backed proposals",
-                "Stay ahead of industry trends with daily personalized updates",
-                "Build deeper client relationships with valuable industry insights"
+                "save hours & hours spent on searching & digesting information",
+                "save money on paywalls for the things you use only once",
+                "save team resources",
+                "save from information overload, affecting 70% of agency workforce, by delegating tasks to Ana"
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
