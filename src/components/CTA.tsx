@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -18,9 +19,11 @@ const CTA = () => {
             </p>
 
             <div className="flex justify-center">
-              <Button className="bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-bold rounded-full px-8 py-6 transition-all">
-                Start your free trial
-              </Button>
+              <Link to="/free-trial">
+                <Button className="bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-bold rounded-full px-8 py-6 transition-all">
+                  Start your free trial
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

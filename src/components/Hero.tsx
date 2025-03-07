@@ -1,6 +1,8 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return <section className="relative pt-32 md:pt-40 overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
@@ -32,9 +34,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center gap-4 animate-slide-up" style={{
           animationDelay: "0.3s"
         }}>
-            <Button className="bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-medium rounded-full px-8 py-6 transition-all">
-              Start your free trial
-            </Button>
+            <Link to="/free-trial">
+              <Button className="bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-medium rounded-full px-8 py-6 transition-all">
+                Start your free trial
+              </Button>
+            </Link>
             <Button variant="outline" className="rounded-full px-6 py-6 group">
               See how it works
               <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />

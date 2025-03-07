@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   // Pricing plans data
@@ -20,7 +21,8 @@ const Pricing = () => {
         "10 team members included"
       ],
       buttonText: "Start free trial",
-      highlighted: false
+      highlighted: false,
+      linkTo: "/free-trial"
     },
     {
       name: "Pro",
@@ -35,7 +37,8 @@ const Pricing = () => {
         "Scalable team access (up to 50 seats)"
       ],
       buttonText: "Start free trial",
-      highlighted: true
+      highlighted: true,
+      linkTo: "/free-trial"
     },
     {
       name: "Enterprise",
@@ -51,7 +54,8 @@ const Pricing = () => {
         "Custom integrations (Slack, Notion, internal systems)"
       ],
       buttonText: "Contact sales",
-      highlighted: false
+      highlighted: false,
+      linkTo: "/free-trial"
     }
   ];
 
@@ -93,17 +97,19 @@ const Pricing = () => {
                 </CardContent>
 
                 <CardFooter className="p-6 pt-0">
-                  <Button
-                    className={`w-full ${
-                      plan.highlighted
-                        ? 'bg-ana-yellow hover:bg-yellow-400 text-ana-dark'
-                        : plan.name === "Enterprise"
-                          ? 'bg-white border-2 border-ana-purple text-ana-purple hover:bg-ana-purple/10'
-                          : 'bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50'
-                    } font-medium rounded-full py-6 transition-all`}
-                  >
-                    {plan.buttonText}
-                  </Button>
+                  <Link to={plan.linkTo} className="w-full">
+                    <Button
+                      className={`w-full ${
+                        plan.highlighted
+                          ? 'bg-ana-yellow hover:bg-yellow-400 text-ana-dark'
+                          : plan.name === "Enterprise"
+                            ? 'bg-white border-2 border-ana-purple text-ana-purple hover:bg-ana-purple/10'
+                            : 'bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50'
+                      } font-medium rounded-full py-6 transition-all`}
+                    >
+                      {plan.buttonText}
+                    </Button>
+                  </Link>
                 </CardFooter>
               </Card>
             </div>
