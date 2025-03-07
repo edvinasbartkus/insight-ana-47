@@ -48,7 +48,7 @@ const Benefits = () => {
               <span className="text-xs font-medium text-ana-dark">AGENCY GROWTH</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-              Transform your agency's competitive advantage
+              Agencies are nightmare to run, let Ana help you with an important part — knowledge.
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Ana is built for advertising agencies by the people who worked there for ages & know the needs of agency inside-out. We've built it for us.
