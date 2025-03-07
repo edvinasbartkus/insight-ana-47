@@ -20,6 +20,13 @@ const FreeTrial = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
+    try {
+      // @ts-ignore
+      window.lintrk('track', { conversion_id: 19236044 });
+    } catch (error) {
+      console.error(error);
+    }
+
     e.preventDefault();
     setFormSubmitted(true);
     // In a real app, you would send the form data to a server here
@@ -49,7 +56,7 @@ const FreeTrial = () => {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="email">Email Address</Label>
                       <Input
@@ -62,7 +69,7 @@ const FreeTrial = () => {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="companyUrl">Company URL</Label>
                       <Input
@@ -74,7 +81,7 @@ const FreeTrial = () => {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <Button
                       type="submit"
                       className="w-full bg-ana-yellow hover:bg-yellow-400 text-ana-dark font-medium rounded-full text-sm transition-all py-6"
