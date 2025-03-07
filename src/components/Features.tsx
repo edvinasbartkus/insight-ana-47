@@ -40,7 +40,7 @@ const Features = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Agencies are a nightmare to run, let Ana help you with some of it</h2>
-          <p className="text-lg text-gray-600">Ana combines powerful insights, analysis, and a rich knowledge base to help your agency win more clients.</p>
+          <p className="text-lg text-gray-600">Ana combines current knowledge, insights, award-winning case-studies, timeless know-how, up-to-date data with loads of interactivity & personalization to help you be a better agency.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
