@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="relative flex flex-row">
           <div className="max-w-2xl mx-auto">
             <div className="text-left">
-              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 editorial-font">Finally, something really useful for the ad agencies.</h2>
+              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 editorial-font text-ana-yellow">Finally, something really useful for the ad agencies.</h2>
 
               <div className="flex">
                 <Link to="/free-trial">
