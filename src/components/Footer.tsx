@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <img src="/images/tennis.png" alt="Ana Tennis" style={{maxHeight: '300px'}} />
+          <img src="/images/tennis.png" alt="Ana Tennis" className="hidden md:block" style={{maxHeight: '300px'}} />
         </div>
       </div>
     </footer>
