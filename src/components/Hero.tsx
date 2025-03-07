@@ -39,10 +39,12 @@ const Hero = () => {
                 Start your free trial
               </Button>
             </Link>
-            <Button variant="outline" className="rounded-full px-6 py-6 group">
-              See how it works
-              <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <a href="#how-it-works">
+              <Button variant="outline" className="rounded-full px-6 py-6 group">
+                See how it works
+                <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
           </div>
 
           <div className="mt-6 relative w-full max-w-2xl" style={{
