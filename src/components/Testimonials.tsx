@@ -4,24 +4,24 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Ana has completely changed how we stay informed and prepare for new business pitches. We're winning more clients with less effort.",
-    author: "Sarah Johnson",
-    role: "Creative Director, Spark Agency"
+    quote: "Neat! We’ve been talking about the need for this for ages — works smoothly. Super stoked to finally getting my team informed with zero effort. Saves a loooot of time. Plus, Ana is good at overviewing best cases and work. More capabilities still need be explored! I’ll get back with comments.",
+    author: "Jessica Johnson",
+    role: "Head of Account Management, Spark Social Agency"
   },
   {
-    quote: "The campaign database alone is worth the subscription. I found inspiration for a difficult pitch and ended up winning a $500K account.",
-    author: "Michael Chen",
-    role: "New Business Director, Pulse Media"
+    quote: "We’ve been testing Ana and have to say, it clicked with the team and the more we use it, the more rewarding Ana gets. Keep up the good work!",
+    author: "Aurimas Lileikas",
+    role: "Managing Director, New! Creative Agency"
   },
   {
-    quote: "Our team saves hours every week that used to be spent gathering insights. Ana delivers exactly what we need, when we need it.",
-    author: "Emma Rodriguez",
-    role: "Strategy Lead, Forward Partners"
+    quote: "It becomes a habit quite quickly: not to go search for things, or get generic ChatGPT answers, but to ask this focused agent to provide answers, overviews, summaries, insights. Nice one.",
+    author: "Carmen Rodriguez",
+    role: "Creative Director, Anti/Anti Agency"
   },
   {
-    quote: "The weekly analysis helped us identify an emerging trend that we turned into a successful campaign for our biggest client.",
-    author: "David Wilson",
-    role: "CEO, Bright Ideas Agency"
+    quote: "Ana makes it easier to keep us all in the loop. We all get the news, insights, trend reports daily and it becomes harder to find excuses to not know about things, or not seeing the work, or case studies.",
+    author: "Mindaugas Lataitis",
+    role: "Managing Director, SuperYou"
   }
 ];
 
