@@ -12,7 +12,7 @@ const CTA = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="bg-white border border-gray-100 rounded-2xl shadow-xl p-8 md:p-12 max-w-4xl mx-auto glass-card">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Finally, something really useful for the ad agencies.</h2>
+            <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 editorial-font">Finally, something really useful for the ad agencies.</h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
               Ana is created with you in mind. Supercharging your agency to win & retain clients. But also, hey, off-load the work off the team.
             </p>

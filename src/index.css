@@ -132,3 +132,15 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.editorial-font {
+  font-family: 'PP Editorial New', serif;
+}

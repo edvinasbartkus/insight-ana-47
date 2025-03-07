@@ -59,28 +59,28 @@ const Pricing = () => {
     <section id="pricing" className="py-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Simple, transparent pricing</h2>
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 editorial-font">Simple, transparent pricing</h2>
           <p className="text-lg text-gray-600">No hidden fees. No complicated tiers. Just the knowledge your agency needs to succeed.</p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div key={index} className="relative flex flex-col h-full">
               {plan.highlighted && (
                 <div className="absolute -top-4 -left-4 -right-4 -bottom-4 bg-gradient-to-br from-ana-purple to-ana-yellow opacity-10 blur-xl rounded-xl"></div>
               )}
-              
+
               <Card className={`relative h-full flex flex-col ${plan.highlighted ? 'border-ana-lavender shadow-lg' : 'border-gray-200'}`}>
                 <CardHeader className={`${plan.highlighted ? 'bg-ana-lavender/40' : 'bg-gray-50'} p-6 text-center`}>
                   <CardTitle className="text-2xl font-display font-bold mb-1">{plan.name}</CardTitle>
                   <CardDescription className="text-gray-600 mb-4">{plan.description}</CardDescription>
-                  
+
                   <div className="flex items-baseline justify-center gap-1">
                     <span className="text-4xl font-display font-bold">{plan.price}</span>
                     {plan.price !== "Custom" && <span className="text-gray-600">/month</span>}
                   </div>
                 </CardHeader>
-                
+
                 <CardContent className="p-6 flex-grow">
                   <ul className="space-y-4">
                     {plan.features.map((feature, idx) => (
@@ -91,14 +91,14 @@ const Pricing = () => {
                     ))}
                   </ul>
                 </CardContent>
-                
+
                 <CardFooter className="p-6 pt-0">
-                  <Button 
+                  <Button
                     className={`w-full ${
-                      plan.highlighted 
-                        ? 'bg-ana-yellow hover:bg-yellow-400 text-ana-dark' 
-                        : plan.name === "Enterprise" 
-                          ? 'bg-white border-2 border-ana-purple text-ana-purple hover:bg-ana-purple/10' 
+                      plan.highlighted
+                        ? 'bg-ana-yellow hover:bg-yellow-400 text-ana-dark'
+                        : plan.name === "Enterprise"
+                          ? 'bg-white border-2 border-ana-purple text-ana-purple hover:bg-ana-purple/10'
                           : 'bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50'
                     } font-medium rounded-full py-6 transition-all`}
                   >
@@ -109,7 +109,7 @@ const Pricing = () => {
             </div>
           ))}
         </div>
-        
+
         <p className="text-xs text-center mt-8 text-gray-500">No credit card required for trial. Cancel anytime.</p>
       </div>
     </section>

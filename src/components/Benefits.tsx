@@ -19,7 +19,7 @@ const Benefits = () => {
                     <p className="text-gray-600">Ana's daily insights give you a competitive edge by surfacing emerging trends first.</p>
                   </div>
                 </div>
-                
+
                 <div className="mb-6 flex items-start gap-4 pb-6 border-b border-gray-100">
                   <div className="min-w-10 h-10 bg-ana-lavender rounded-full flex items-center justify-center">
                     <span className="font-display font-bold text-purple-600">2</span>
@@ -29,7 +29,7 @@ const Benefits = () => {
                     <p className="text-gray-600">Access Ana's database of successful campaigns to inspire and inform your client pitches.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <div className="min-w-10 h-10 bg-ana-lavender rounded-full flex items-center justify-center">
                     <span className="font-display font-bold text-purple-600">3</span>
@@ -42,18 +42,18 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="order-1 lg:order-2">
             <div className="bg-ana-yellow inline-block px-3 py-1 rounded-full mb-4">
               <span className="text-xs font-medium text-ana-dark">AGENCY GROWTH</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-bold mb-6 editorial-font">
               Agencies are nightmare to run, let Ana help you with an important part — knowledge.
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Ana is built for advertising agencies by the people who worked there for ages & know the needs of agency inside-out. We've built it for us.
             </p>
-            
+
             <ul className="space-y-3">
               {[
                 "save hours & hours spent on searching & digesting information",
