@@ -15,8 +15,8 @@ const Benefits = () => {
                     <span className="font-display font-bold text-purple-600">1</span>
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Identify market trends before competitors</h3>
-                    <p className="text-gray-600">Ana's daily insights give you a competitive edge by surfacing emerging trends first.</p>
+                    <h3 className="font-display font-bold text-lg mb-1">Have your own agency's AI agent</h3>
+                    <p className="text-gray-600">It will learn from your team's needs, answer question, provide data, search database and save insane amount of time. Ana will gradually become a superpowerful team member at a fraction of a cost. Ana works 24/7 and takes no days off</p>
                   </div>
                 </div>
 
@@ -25,8 +25,8 @@ const Benefits = () => {
                     <span className="font-display font-bold text-purple-600">2</span>
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Craft more compelling pitches</h3>
-                    <p className="text-gray-600">Access Ana's database of successful campaigns to inspire and inform your client pitches.</p>
+                    <h3 className="font-display font-bold text-lg mb-1">Be first to know about the trends & news</h3>
+                    <p className="text-gray-600">Your team will be briefed daily about anything that's important (yes, Ana personalizes the briefing to your agency's needs).</p>
                   </div>
                 </div>
 
@@ -35,8 +35,8 @@ const Benefits = () => {
                     <span className="font-display font-bold text-purple-600">3</span>
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-lg mb-1">Save hours of research time</h3>
-                    <p className="text-gray-600">Stop manually searching for information across multiple sources - Ana does the work for you.</p>
+                    <h3 className="font-display font-bold text-lg mb-1">Deep dive into case studies in no time</h3>
+                    <p className="text-gray-600">Ana crunches thousands of case studies to assemble them according to category, market, or even more specific parameters).</p>
                   </div>
                 </div>
               </div>
